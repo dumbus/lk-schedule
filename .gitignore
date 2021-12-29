@@ -1,3 +1,4 @@
+/__pycache__
 /node_modules
 auth_params.py
 package.json
