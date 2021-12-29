@@ -14,7 +14,7 @@ export class Week {
 
     this.title = document.createElement('div');
     this.title.classList.add('week-title');
-    this.title.textContent = `Расписание за неделю ${this.number + 1} (с ${this.weekData[1]} по ${this.weekData[2]}`;
+    this.title.textContent = `Расписание за неделю ${+this.number + 1} (с ${this.weekData[1]} по ${this.weekData[2]}`;
     this.week.append(this.title);
     this.day = document.createElement('div');
     this.day.classList.add('day');
