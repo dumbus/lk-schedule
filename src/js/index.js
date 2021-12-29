@@ -1,4 +1,6 @@
 import '../sass/style.scss';
-import data from '../data.json';
+import { Week } from './week';
 
-console.log(data);
+const week = new Week(0);
+week.createWeek();
+week.renderWeek();
